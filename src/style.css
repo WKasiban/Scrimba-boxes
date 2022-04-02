@@ -1,0 +1,23 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 60vw;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+}
+
+.box {
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
